@@ -1,0 +1,46 @@
+/* General */
+body, html {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-size: 16px;
+}
+
+
+/* Header */
+h1 {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #00FF00;
+    text-align: center;
+    text-decoration: underline;
+    color: #B30059;
+}
+
+/* Main */
+canvas {
+    display: block;
+    margin: 10px auto;
+    outline: none;
+    border: 1px black solid;
+}
+
+canvas:active, canvas:focus {
+    outline: none;
+    border: 5px pink solid;
+}
+
+p {
+    text-align: center;
+}
+
+
+/* Footer */
+footer {
+    padding: 10px 0;
+    background-color: #B30059;
+    text-align: center;
+    color: #00FF00;
+}
